@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family:sans-serif;
+    line-height: 30px;
+    font-size: 16px;
+}
+/* ------------------------------BANNER------------------------------------ */
+.slider-main{
+    padding: 0;
+}
+.image-main{
+    overflow: hidden;
+    width: 100%;
+}
+.image-main img{
+    /* max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 400px; */
+    /* object-fit: cover; */
+    min-width:100%;
+}
+.slick-banner{
+    overflow: hidden;
+}
+
+.slider{
+    position:relative;
+    bottom: 0px;
+}
+/* .image1{
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+} */
+/* .slick-banner{
+    overflow: hidden;
+} */
+.image-main{
+    position: relative;
+}
+.image-content{
+    position: absolute;
+    color: #fff;
+    /* bottom: 30px; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.slick-dots{
+    bottom: 10px !important;
+}
+.slick-dots li.slick-active button:before{
+    color: #fff !important;
+}
+.slick-dots li button:before{
+    color: #fff !important;
+
+}
+
+/* -----------------------------FEATURE-CONTENT------------------------- */
+
+.text-with-image{
+    margin: 50px 0;
+}
+
+.feature-image{
+    max-width:500px;
+}
+.feature-image img{
+    width: 100%;
+}
+
+/* ---------------------------CONFI-TEXT------------------------- */
+.main-config{
+    margin: 50px 0;
+}
+.confi-text h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* <!-- ------------------------------CARDS------------------------- --> */
+.card-main{
+    margin: 50px 0;
+}
+.offices{
+    /* border: 1px solid black; */
+    box-shadow: 0 8px 12px 0 rgba(51, 51, 51, 0.4);
+    background-color: #fff;
+    padding: 10px;
+}
+.image-card{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.image-card img{
+    width: 100%;
+}
+.image-card p{
+    line-height: 25px;
+} 
+
+/* -----------------------------FOOTER------------------------------ */
+
+.footer-main{
+    padding: 20px;
+    background-color:rgb(39, 9, 9);
+    color: #fff;
+    
+}
+.footer-content p{
+    text-align: right;
+}
+.footer-content h4{
+    text-align: center;
+}
+
+/* -------------------------------MEDIA QUERY------------------------------------- */
+
+@media (max-width:992px) {
+    .feature-image{
+        margin-top: 20px;
+    } 
+    .text-with-image{
+        margin: 25px 0;
+    }
+    .feature-content{
+        padding-top: 30px;
+    }
+  
+}
+
+@media (max-width:992px) {
+    .offices{
+        margin-bottom: 20px;
+    } 
+    .footer-content p{
+        text-align: center;
+    }
+}
+
